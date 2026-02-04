@@ -1,81 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* =====================
+   GLOBAL RESET & BASE
+===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
-    color: #1f2933;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f7f6;
+    color: #2c2c2c;
     line-height: 1.8;
+    scroll-padding-top: 90px;
 }
 
+/* =====================
+   HEADER
+===================== */
 header {
-    background: linear-gradient(120deg, #1b5e20, #43a047);
-    color: white;
+    background: linear-gradient(135deg, #1b5e20, #388e3c);
+    color: #fff;
+    padding: 50px 20px;
     text-align: center;
-    padding: 70px 20px;
 }
 
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* =====================
+   NAVBAR
+===================== */
 nav {
     position: sticky;
     top: 0;
-    background: #1b5e20;
-    padding: 12px;
+    z-index: 1000;
+    background: #145a32;
+    padding: 12px 10px;
     text-align: center;
 }
 
 nav a {
     color: #e8f5e9;
-    margin: 0 10px;
     text-decoration: none;
+    margin: 0 10px;
     font-weight: 500;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
+nav a:hover {
+    color: #c8e6c9;
+    border-bottom: 2px solid #c8e6c9;
+}
+
+/* MOBILE NAV */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    nav a {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+}
+
+/* =====================
+   HERO SECTION (IMAGES)
+===================== */
 .hero {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 40px;
+    padding: 40px 20px;
+    background: #ffffff;
     flex-wrap: wrap;
 }
 
-.hero-card {
-    background: white;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-    max-width: 300px;
-}
-
-.hero-card img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.caption {
+.hero figure {
+    max-width: 320px;
     text-align: center;
-    color: #2e7d32;
-    margin-top: 8px;
 }
 
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.hero figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+}
+
+/* =====================
+   SECTIONS
+===================== */
 section {
-    background: white;
-    margin: 40px auto;
+    background: #ffffff;
+    margin: 30px auto;
     padding: 40px;
-    width: 90%;
-    max-width: 1100px;
-    border-radius: 20px;
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
 
-h2 {
+section h2 {
     color: #1b5e20;
-    border-left: 6px solid #43a047;
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    border-left: 6px solid #66bb6a;
     padding-left: 12px;
 }
 
+section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+/* =====================
+   LISTS
+===================== */
+ul, ol {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+/* =====================
+   SUMMARY & CONCLUSION HIGHLIGHT
+===================== */
+#summary,
+#conclusion {
+    background: #f1f8e9;
+    border-left: 8px solid #8bc34a;
+}
+
+/* =====================
+   REFERENCES
+===================== */
+#references {
+    background: #fafafa;
+}
+
+#references ol {
+    margin-left: 20px;
+}
+
+#references li {
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#references em {
+    color: #1b5e20;
+}
+
+/* =====================
+   FOOTER (OPTIONAL)
+===================== */
 footer {
-    background: #1b5e20;
-    color: white;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+    background: #1b5e20;
+    color: #e8f5e9;
+    font-size: 14px;
+}
+
+/* =====================
+   RESPONSIVE SECTIONS
+===================== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
 }
