@@ -1,211 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Isolation and Identification of Fungal Pathogens of Aloe vera</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Isolation and Identification of Fungal Pathogens of Aloe vera</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
     <h1>Isolation and Identification of Fungal Pathogens of Aloe vera Plant</h1>
-    <p>Comprehensive Final Year Microbiology Research Project</p>
+    <p>Final Year Microbiology Project | Comprehensive Research Website</p>
 </header>
 
 <nav>
-    <a href="#intro">Introduction</a>
-    <a href="#literature">Literature Survey</a>
+    <a href="#introduction">Introduction</a>
+    <a href="#literature">Literature</a>
     <a href="#aim">Aim & Objectives</a>
     <a href="#plan">Plan of Work</a>
-    <a href="#materials">Materials & Methods</a>
+    <a href="#methods">Materials & Methods</a>
+    <a href="#summary">Summary</a>
     <a href="#conclusion">Conclusion</a>
     <a href="#references">References</a>
 </nav>
 
 <section class="hero">
-    <div class="hero-card">
-        <img src="images/aloe_healthy.jpg" alt="Healthy Aloe Vera">
-        <p class="caption">Healthy Aloe vera plant</p>
-    </div>
-    <div class="hero-card">
-        <img src="images/aloe_infected.jpg" alt="Infected Aloe Vera">
-        <p class="caption">Fungal infected Aloe vera plant</p>
-    </div>
+    <figure>
+        <img src="images/aloe_healthy.jpg" alt="Healthy Aloe Vera Plant">
+        <figcaption>Non-infected Aloe vera Plant</figcaption>
+    </figure>
+    <figure>
+        <img src="images/aloe_infected.jpg" alt="Infected Aloe Vera Plant">
+        <figcaption>Infected Aloe vera Plant</figcaption>
+    </figure>
 </section>
 
-<!-- INTRODUCTION -->
-<section id="intro">
-    <h2>Introduction</h2>
 
-    <p>
-        Medicinal plants are valuable natural resources rich in bioactive compounds that
-        play a vital role in the development of novel drugs. Due to this, extensive
-        research has been carried out worldwide to study the antioxidant, antimicrobial,
-        wound-healing, anti-ulcer, anti-inflammatory, and analgesic properties of plants.
-    </p>
+<section id="introduction">
+  <h2>Introduction</h2>
 
-    <p>
-        The metabolite profile of endophytes is strongly influenced by the unique chemical
-        environment of the host plant. Among endophytes, fungal endophytes are considered
-        promising sources of biologically active compounds with significant medicinal
-        importance.
-    </p>
+  <p>
+    Plants are natural resources of beneficial compounds that can help in the development
+    of novel drugs. Therefore, the world has extensively studied the antioxidant,
+    antimicrobial, wound healing, anti-ulcer, anti-inflammatory and analgesic properties
+    of plants. The metabolite profiles of endophytes are greatly influenced by the unique
+    chemical environment of the host plant. Especially fungal endophytes are hopeful
+    sources for novel biologically active compounds with great impact on medicine.
+  </p>
 
-    <p>
-        <em>Aloe vera</em> is a well-known medicinal plant possessing antioxidant,
-        anticancer, anti-ulcer, wound-healing, and skin-protective properties.
-        Pharmacologically important compounds are mainly present in the parenchymatous
-        tissue of the fleshy leaves.
-    </p>
+  <p>
+    Aloe vera is a medicinal plant with antioxidant, anticancer, anti-ulcer, wound healing
+    properties, and skin protection effects. The pharmacologically important compounds
+    are found in the parenchymatous tissue of the fleshy parts of the plant. This plant
+    was collected from highly stressed regions.
+  </p>
 
-    <p>
-        Endophytes are microorganisms, including fungi and bacteria, that reside within
-        plant tissues and form a symbiotic relationship with their host in highly
-        competitive environments. Aloe vera is one of the oldest medicinal plants and is
-        known as the “healing plant” due to the presence of acemannan, which exhibits
-        immunomodulatory, antitumor, antibacterial, and antifungal activities.
-    </p>
+  <p>
+    Endophytes are microorganisms in the form of fungi and bacteria that exist within
+    various tissues of the host plants and form a symbiotic relationship with their host
+    in a highly competitive environment.
+  </p>
 
-    <p>
-        Aloe barbadensis (syn. Aloe vera), commonly known as Indian Aloe or Barbados Aloe,
-        is a perennial herb with fleshy leaves of high medicinal value. The name Aloe is
-        derived from the Arabic word “Alloeh” meaning “shining bitter substance,” while
-        “vera” in Latin means “true.” Among more than 325 species of Aloe, Aloe
-        barbadensis is the most widely cultivated due to its rapid propagation and high
-        therapeutic value.
-    </p>
+  <p>
+    Aloe vera is one of the oldest medicinal plants and is known as the “healing plant”
+    due to the presence of acemannan in its leaves, which possesses immunomodulatory,
+    antitumor, antibacterial and antifungal activities (Ameen et al., 2021).
+  </p>
 
-    <p>
-        Aloe vera plants are susceptible to several fungal and bacterial diseases.
-        Fungal pathogens are more commonly associated with Aloe vera and cause diseases
-        such as leaf spot, collar rot, and root rot, which adversely affect plant growth,
-        development, and medicinal quality. Some fungal pathogens produce mycotoxins that
-        pose serious risks to human and animal health.
-    </p>
+  <p>
+    Aloe barbadensis (syn. Aloe vera), popularly known as Indian Aloe or Barbados Aloe,
+    is a perennial herb with fleshy leaves that have great medicinal value. The name
+    Aloe is derived from the Arabic word “Alloeh” meaning “shining bitter substance”
+    while “vera” in Latin means “true”.
+  </p>
+
+  <p>
+    According to Adodo (2009), over 325 species of the genus Aloe have been identified.
+    Some common species include Aloe barbadensis Miller, A. saponaria, A. chinensis,
+    A. variegata, A. ferox, A. latifolia and A. curacao. Among these, Aloe barbadensis
+    is more popular worldwide due to faster propagation and higher therapeutic value
+    and is therefore referred to as the “True Aloe”.
+  </p>
+
+  <p>
+    Aloe plants are attacked by a number of fungal and bacterial pathogens that cause
+    diseases such as leaf spots, collar rot and root rot. These diseases affect growth,
+    development and therapeutic potential of the plant. Fungal contamination also poses
+    serious risks to human health due to the production of mycotoxins
+    (Mina Kumari et al., 2020).
+  </p>
 </section>
-
-<!-- LITERATURE SURVEY -->
 <section id="literature">
-    <h2>Review of Literature</h2>
+  <h2>Review of Literature</h2>
 
-    <p>
-        Endophytic fungi isolated from desert plants are among the least explored
-        organisms with significant medicinal potential. Fuad Ameen et al. (2021)
-        isolated an endophytic fungus from Aloe vera collected from the Asir desert,
-        Saudi Arabia, and identified it as <em>Preussia africana</em> using ITS
-        sequencing.
-    </p>
+  <p>
+    Fuad Ameen et al. (2021) studied endophytic fungi isolated from Aloe vera collected
+    from the Asir desert region of Saudi Arabia. Molecular identification using ITS1,
+    ITS4 and 5.8S rRNA sequencing revealed the fungus as <em>Preussia africana</em>,
+    belonging to the family Sporormiaceae. This study highlighted the potential of
+    desert endophytes as sources of bioactive compounds.
+  </p>
 
-    <p>
-        Kamalakannan et al. (2008) reported the first occurrence of leaf spot disease
-        caused by <em>Alternaria alternata</em> on Aloe barbadensis in India. Severe
-        disease incidence was observed in Erode and Madurai districts of Tamil Nadu.
-        The pathogen produced grey colonies with olive green margins on PDA, and
-        characteristic obclavate conidia.
-    </p>
+  <p>
+    Kamalakannan et al. (2008) reported severe leaf spot disease of Aloe vera in
+    Coimbatore, Erode and Madurai districts of Tamil Nadu. Black sporulation appeared
+    in the centre of leaf spots. The pathogen was isolated on Potato Dextrose Agar (PDA)
+    and identified as <em>Alternaria alternata</em> based on morphological characteristics.
+  </p>
 
-    <p>
-        Mohammed Ali Abdul Razzaq Al-Nuaimy et al. (2024) isolated 53 endophytic fungi
-        from Aloe vera leaves and reported a colonization rate of 44.16%. Chemical
-        analysis using HPLC and GC-MS revealed aloin, aloe-emodin, fatty acids, and
-        several bioactive compounds.
-    </p>
+  <p>
+    Mohammed Ali Abdul Razzaq Al Nuaimy et al. (2024) isolated 53 endophytic fungi from
+    120 Aloe vera leaf segments with a colonization rate of 44.16%. Chemical analysis
+    revealed the presence of aloin, aloe-emodin, fatty acids and multiple bioactive
+    compounds using HPLC and GC-MS techniques.
+  </p>
 
-    <p>
-        Divya Singh et al. (2024) isolated fungal pathogens responsible for Aloe vera
-        leaf spot disease and identified <em>Alternaria alternata</em>,
-        <em>Nigrospora oryzae</em>, and <em>Curvularia lunata</em> as major pathogenic
-        species. Maximum disease severity was observed for <em>Alternaria alternata</em>.
-    </p>
+  <p>
+    Divya Singh et al. (2024) isolated five fungal species from Aloe vera leaf spot
+    disease including <em>Alternaria alternata</em>, <em>Nigrospora oryzae</em>,
+    <em>Curvularia lunata</em>, <em>Aspergillus niger</em> and <em>Penicillium</em>
+    species. Alternaria alternata showed maximum disease severity (49.05%).
+  </p>
 </section>
-
-<!-- AIM & OBJECTIVES -->
 <section id="aim">
-    <h2>Aim and Objectives</h2>
+  <h2>Aim and Objectives</h2>
 
-    <h3>Aim</h3>
-    <p>
-        To isolate and identify fungal pathogens responsible for diseases in Aloe vera
-        plants in order to understand their diversity and develop effective disease
-        management strategies.
-    </p>
+  <h3>Aim</h3>
+  <p>
+    To isolate and identify the fungal pathogens responsible for diseases in Aloe vera
+    plants in order to understand their diversity and develop effective disease
+    management strategies.
+  </p>
 
-    <h3>Objectives</h3>
-    <ol>
-        <li>To collect healthy and infected Aloe vera plant samples.</li>
-        <li>To isolate fungal pathogens using microbiological techniques.</li>
-        <li>To identify fungal isolates based on morphological characteristics.</li>
-        <li>To study pathogenicity on healthy Aloe vera plants.</li>
-        <li>To document diversity and prevalence of fungal pathogens.</li>
-    </ol>
+  <h3>Objectives</h3>
+  <ol>
+    <li>To collect healthy and infected Aloe vera plant samples.</li>
+    <li>To isolate fungal pathogens using microbiological techniques.</li>
+    <li>To identify fungal pathogens based on morphological characteristics.</li>
+    <li>To study pathogenicity on healthy Aloe vera plants.</li>
+    <li>To document diversity and prevalence of fungal pathogens.</li>
+  </ol>
 </section>
-
-<!-- PLAN OF WORK -->
 <section id="plan">
-    <h2>Plan of Work</h2>
-    <ol>
-        <li>Literature review</li>
-        <li>Sample collection</li>
-        <li>Isolation and culturing of fungi</li>
-        <li>Pure culture preparation</li>
-        <li>Morphological identification</li>
-        <li>Pathogenicity tests</li>
-        <li>Data analysis and reporting</li>
-    </ol>
+  <h2>Plan of Work</h2>
+
+  <ol>
+    <li>Literature review on fungal diseases of Aloe vera.</li>
+    <li>Collection of infected plant samples.</li>
+    <li>Surface sterilization and isolation on PDA.</li>
+    <li>Subculturing to obtain pure fungal cultures.</li>
+    <li>Microscopic and morphological identification.</li>
+    <li>Pathogenicity testing using Koch’s postulates.</li>
+    <li>Data analysis and documentation.</li>
+    <li>Preparation of report and conclusion.</li>
+  </ol>
 </section>
+<section id="methods">
+  <h2>Materials and Methods</h2>
 
-<!-- MATERIALS & METHODS -->
-<section id="materials">
-    <h2>Materials and Methods</h2>
+  <h3>Materials</h3>
+  <ul>
+    <li>Infected Aloe vera plant samples</li>
+    <li>Autoclave, incubator, microscope, centrifuge</li>
+    <li>Potato Dextrose Agar (PDA), SDA</li>
+    <li>70% ethanol, sodium hypochlorite</li>
+    <li>Petri plates, micropipettes, gloves</li>
+  </ul>
 
-    <h3>Materials</h3>
-    <ul>
-        <li>Infected and healthy Aloe vera plant samples</li>
-        <li>Autoclave, incubator, microscope, centrifuge</li>
-        <li>Potato Dextrose Agar (PDA), Sabouraud Dextrose Agar (SDA)</li>
-        <li>70% ethanol, sodium hypochlorite, sterile distilled water</li>
-        <li>Petri plates, inoculation needles, micropipettes, gloves</li>
-    </ul>
-
-    <h3>Methods</h3>
-    <p>
-        Plant samples were surface sterilized, cut into small segments, and inoculated
-        on PDA plates. Plates were incubated at 25–28°C for 5–7 days. Fungal colonies
-        were subcultured to obtain pure isolates. Identification was based on colony
-        morphology and microscopic examination. Pathogenicity was confirmed using
-        Koch’s postulates.
-    </p>
+  <h3>Methods</h3>
+  <p>
+    Plant samples were surface sterilized using ethanol and sodium hypochlorite.
+    Tissue segments were inoculated on PDA and incubated at 25–28°C for 5–7 days.
+    Emerging colonies were subcultured to obtain pure isolates. Identification was
+    carried out using morphological and microscopic characteristics.
+  </p>
 </section>
+<section id="summary">
+  <h2>Summary</h2>
 
-<!-- CONCLUSION -->
+  <p>
+    Common fungal pathogens isolated from Aloe vera include <em>Alternaria alternata</em>,
+    <em>Fusarium solani</em>, <em>Nigrospora oryzae</em>, <em>Curvularia lunata</em>,
+    <em>Aspergillus niger</em> and <em>Penicillium</em> species. Pathogenicity tests
+    confirmed disease-causing ability.
+  </p>
+</section>
+<section id="summary">
+  <h2>Summary</h2>
+
+  <p>
+    The isolation and identification of fungal pathogens from <em>Aloe vera</em> involve
+    systematic collection of diseased plant samples showing symptoms such as leaf spots,
+    blight, and necrotic lesions. The infected leaves are thoroughly washed, surface
+    sterilized, and cut into small segments before being cultured on Potato Dextrose Agar
+    (PDA) under controlled laboratory conditions.
+  </p>
+
+  <p>
+    The fungal growth obtained is purified using single hyphal tip or sub-culturing
+    techniques to ensure isolation of pure cultures. Identification of fungal pathogens
+    is carried out by preparing microscopic slides and observing morphological and
+    cultural characteristics such as colony color, texture, spore shape, size, and
+    arrangement using a compound microscope.
+  </p>
+
+  <p>
+    Common fungal pathogens isolated from Aloe vera include
+    <em>Alternaria alternata</em>,
+    <em>Fusarium oxysporum</em>,
+    <em>Fusarium solani</em>,
+    <em>Nigrospora oryzae</em>,
+    <em>Cladosporium herbarum</em>,
+    <em>Stemphylium botryosum</em>,
+    <em>Aspergillus niger</em>, and
+    <em>Penicillium</em> species.
+  </p>
+
+  <p>
+    Pathogenicity tests are conducted by inoculating healthy Aloe vera leaves with fungal
+    spores to confirm disease causation by re-isolating the pathogen, following
+    Koch’s postulates. Among the isolated fungi, <em>Alternaria alternata</em> is
+    frequently identified as the major pathogen responsible for leaf spot disease,
+    exhibiting high disease incidence and severity.
+  </p>
+
+  <p>
+    Other pathogenic fungi such as <em>Nigrospora oryzae</em> and
+    <em>Curvularia lunata</em> also show significant pathogenicity on Aloe vera leaves.
+    The identification process integrates morphological analysis, cultural behavior on
+    PDA media, and supportive molecular identification techniques such as NCBI database
+    comparison.
+  </p>
+</section>
 <section id="conclusion">
-    <h2>Conclusion</h2>
-    <p>
-        Aloe vera is an important medicinal plant with high demand in Indian and
-        international markets. Fungal diseases such as black spot significantly reduce
-        quality, yield, and market value. Chemical fungicides, although effective,
-        pose environmental and health risks. Therefore, eco-friendly disease management
-        strategies involving biocontrol agents and plant extracts are recommended for
-        sustainable Aloe vera cultivation.
-    </p>
-</section>
+  <h2>Conclusion</h2>
 
-<!-- REFERENCES -->
+  <p>
+    <em>Aloe vera</em> is an important medicinal plant with high demand in both the
+    Indian and international markets. However, black spot disease has emerged as a
+    serious problem for Aloe vera growers across the country. This disease
+    significantly reduces the quality, yield, and market value of Aloe vera plants,
+    making its effective management essential.
+  </p>
+
+  <p>
+    Since Aloe vera is extensively used in medicinal and cosmetic industries,
+    contamination by fungal pathogens can pose serious risks to human health.
+    Several fungal pathogens are known to produce mycotoxins in infected plant
+    tissues and on growth substrates, which may be harmful to both humans and
+    animals when contaminated plant material is used.
+  </p>
+
+  <p>
+    Although chemical fungicides provide quick and effective control of plant
+    diseases, their continuous application is associated with several drawbacks.
+    These include the development of pathogen resistance, disease resurgence,
+    harmful effects on non-target organisms, environmental pollution, and potential
+    risks to human health. Additionally, pesticide residues may remain in treated
+    plant materials and negatively affect the pharmacologically important
+    constituents of Aloe vera.
+  </p>
+
+  <p>
+    Due to these limitations, there is a growing need to develop safer and
+    eco-friendly alternatives for disease management. The use of biocontrol agents
+    and plant-based extracts for controlling <em>Colletotrichum gloeosporioides</em>
+    and other fungal pathogens offers a promising solution, as these methods are
+    cost-effective, environmentally safe, and pose minimal risk to users.
+  </p>
+
+  <p>
+    Therefore, an integrated disease management approach that combines compatible
+    biocontrol agents, plant-derived products, and eco-friendly chemicals can be
+    effectively exploited in the future for sustainable management of black spot
+    disease in Aloe vera. Such strategies will help maintain plant health, preserve
+    medicinal quality, and ensure environmental safety.
+  </p>
+</section>
 <section id="references">
-    <h2>References</h2>
-    <ol>
-        <li>Kamalakannan A. et al. (2008)</li>
-        <li>Adodo A. (2009, 2019)</li>
-        <li>Fuad Ameen et al. (2021)</li>
-        <li>Mohammed Ali Abdul Razzaq Al-Nuaimy et al. (2024)</li>
-        <li>Divya Singh et al. (2024)</li>
-    </ol>
+  <h2>References</h2>
+
+  <ol>
+    <li>
+      Kamalakannan, A., Gopalakrishnan, C., Renuka, R., Kalpana, K., Ladha Lakshmi, D.,
+      & Valluvaparidasan, V. (2008). First report of <em>Alternaria alternata</em>
+      causing leaf spot on <em>Aloe barbadensis</em> in India.
+      <em>Australasian Plant Disease Notes</em>. CSIRO Publishing.
+    </li>
+
+    <li>
+      Adodo, A. (2019). <em>Nature Power</em> (4th ed.): A Christian approach to herbal
+      medicine. Paxherbal Clinic and Research Laboratory, Benedictine Monastery,
+      Ewu-Esan.
+    </li>
+
+    <li>
+      Adodo, A. (2009). <em>Nature Power</em> (4th ed.): A Christian approach to herbal
+      medicine. Paxherbal Clinic and Research Laboratory, Benedictine Monastery,
+      Ewu-Esan, Nigeria, p. 278.
+    </li>
+
+    <li>
+      Akhtar, K. P., Saleem, M. Y., Asghar, M., & Haq, M. A. (2004).
+      New report of <em>Alternaria alternata</em> causing leaf blight of tomato in Pakistan.
+      <em>Plant Pathology</em>, 53, 816.
+      https://doi.org/10.1111/j.1365-3059.2004.01099.x
+    </li>
+
+    <li>
+      Akinyele, B. O., & Odiyi, A. C. (2007).
+      Comparative study of vegetative morphology and taxonomic, nutritional and
+      medicinal status of <em>Aloe vera</em> L.
+      <em>African Crop Science Conference Proceedings</em>, 8, 1567–1570.
+    </li>
+
+    <li>
+      Akinyele, B. O., & Odiyi, A. C. (2020).
+      Comparative study of vegetative morphology and medicinal status of
+      <em>Aloe vera</em> L.
+      <em>African Crop Science Conference Proceedings</em>.
+    </li>
+
+    <li>
+      Aladesanmi, A. J., Iwalewa, E. O., Adebajo, A. C., et al. (2007).
+      Antimicrobial and antioxidant activities of some Nigerian medicinal plants.
+      <em>African Journal of Traditional, Complementary and Alternative Medicine</em>,
+      4, 173–184.
+    </li>
+
+    <li>
+      Barcroft, A., & Myskja, A. (2009).
+      <em>Aloe vera: Nature’s Silent Healer</em>.
+      BAAM Publishing Ltd., London.
+    </li>
+
+    <li>
+      Chatterjee, P., Chakraborty, B., & Nandy, S. (2013).
+      <em>Aloe vera</em> plant: Review with significant pharmacological activities.
+      <em>Mintage Journal of Pharmaceutical and Medical Sciences</em>,
+      2(3), 21–24.
+    </li>
+
+    <li>
+      Chithra, S., Jasim, B., Sachidanandan, P., et al. (2014).
+      Piperine production by endophytic fungus
+      <em>Colletotrichum gloeosporioides</em> isolated from <em>Piper nigrum</em>.
+      <em>Phytomedicine</em>, 21, 534–540.
+    </li>
+
+    <li>
+      Ellis, M. B. (1971).
+      <em>Dematiaceous Hyphomycetes</em>.
+      Commonwealth Mycological Institute, Kew, UK.
+    </li>
+
+    <li>
+      Ameen, F., Stephenson, S. L., Al-Nadhari, S., & Yassin, M. A. (2021).
+      Isolation, identification and bioactivity analysis of an endophytic fungus isolated
+      from <em>Aloe vera</em> collected from the Asir desert, Saudi Arabia.
+      <em>Bioprocess and Biosystems Engineering</em>.
+      https://doi.org/10.1007/s00449-020-02507-1
+    </li>
+
+    <li>
+      Gjerstad, G., & Riner, T. D. (1968).
+      Current status of <em>Aloe vera</em> as a cure-all.
+      <em>The American Journal of Pharmacy</em>, 140, 51–56.
+    </li>
+
+    <li>
+      Hegger, J. P. (1996).
+      Beneficial effects of Aloe on wound healing in an excisional wound model.
+      <em>The Journal of Alternative and Complementary Medicine</em>,
+      2(2), 271–277.
+    </li>
+
+    <li>
+      Jin, J., Zhao, Q., Zhang, X. M., & Li, W. J. (2018).
+      Research progress on bioactive products from endophytes.
+      <em>Journal of Microbiology</em>, 38, 103–113.
+    </li>
+
+    <li>
+      Madhukar, J., & Reddy, S. M. (1976).
+      Some new leaf spot diseases of pomegranate.
+      <em>Indian Journal of Mycology and Plant Pathology</em>,
+      18, 171–172.
+    </li>
+
+    <li>
+      Maiti, C. K., Sen, S., Acharya, R., & Acharya, K. (2006).
+      First report of <em>Alternaria alternata</em> causing leaf spot on
+      <em>Stevia rebaudiana</em>.
+      British Society for Plant Pathology.
+    </li>
+
+    <li>
+      Kumari, M., & Jha, P. K. (2020).
+      Etiology, symptomatology and management of black spot of <em>Aloe vera</em>
+      through botanicals and biocontrol agents: A brief review.
+    </li>
+
+    <li>
+      Al-Nuaimy, M. A. A. R., & Hawar, S. N. (2024).
+      Isolation and identification of endophytic fungi from <em>Aloe vera</em> leaves
+      and chemical analysis of the alcoholic extract of the leaves.
+      <em>Ibn Al-Haitham Journal for Pure and Applied Sciences</em>.
+      https://doi.org/10.30526/37.1.3254
+    </li>
+
+    <li>
+      Mohammed, G. M., & Hawar, S. N. (2022).
+      Green biosynthesis of silver nanoparticles from <em>Moringa oleifera</em> leaves
+      and its antimicrobial and cytotoxicity activities.
+      <em>International Journal of Biomaterials</em>.
+    </li>
+
+    <li>
+      Mondal, M. H., Saha, J., & Rahman, M. A. (2021).
+      Functional applications of <em>Aloe vera</em> on textiles: A review.
+      <em>Journal of Polymers and the Environment</em>,
+      29, 993–1009.
+    </li>
+
+    <li>
+      Olusegun, A. (2000).
+      <em>One Hundred Medicinal Uses of Aloe vera</em>.
+      Goodhealth Inc., Lagos.
+    </li>
+
+    <li>
+      Prasad, R. (2020).
+      Black spot of <em>Aloe vera</em> (<em>Aloe barbadensis</em> Miller) through
+      botanicals and biocontrol agents.
+      Department of Plant Pathology, Dr. Rajendra Prasad Central Agricultural University,
+      Pusa, Samastipur, Bihar, India.
+    </li>
+
+    <li>
+      Sharma, P., Kharkwal, A. C., Kharkwal, H., et al. (2014).
+      A review on pharmacological properties of <em>Aloe vera</em>.
+      <em>International Journal of Pharmaceutical Sciences Review and Research</em>,
+      29, 31–37.
+    </li>
+
+    <li>
+      Strobel, G., & Daisy, B. (2003).
+      Bioprospecting for microbial endophytes and their natural products.
+      <em>Microbiology and Molecular Biology Reviews</em>,
+      67, 491–502.
+    </li>
+
+    <li>
+      Kharwar, R. N., Mishra, A., Gond, S. K., et al. (2011).
+      Anticancer compounds derived from fungal endophytes: Importance and future
+      challenges.
+      <em>Natural Product Reports</em>, 28, 1208–1228.
+    </li>
+  </ol>
 </section>
 
-<footer>
-    <p>© 2026 | Final Year Microbiology Project | Aloe vera</p>
-</footer>
-
-</body>
-</html>
